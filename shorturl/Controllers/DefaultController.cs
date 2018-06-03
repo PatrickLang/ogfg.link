@@ -27,6 +27,7 @@ namespace shorturl.Controllers
                 return new RedirectResult(testValues[id]);
             } catch (KeyNotFoundException)
             {
+                // Note - if there's a file in wwwroot matching the GET request, this will not be reached.
                 return new NotFoundResult();
             }
         }
