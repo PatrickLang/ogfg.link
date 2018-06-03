@@ -18,5 +18,17 @@ namespace shorturl.Controllers
             testValues.Add("bs", "http://beersmith.com/");
             testValues.Add("bx", "http://beerxml.com/");
         }
+
+        [HttpGet("{id}")]
+        public IActionResult Get(string id)
+        {
+            try
+            {
+                return new RedirectResult(testValues[id]);
+            } catch (KeyNotFoundException)
+            {
+                return new NotFoundResult();
+            }
+        }
     }
 }
