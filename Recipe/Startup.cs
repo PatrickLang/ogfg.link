@@ -24,7 +24,7 @@ namespace ogfg.recipeapp
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddDbContext<RecipeContext>(options =>
-             options.UseInMemoryDatabase());
+             options.UseInMemoryDatabase("recipeTemp"));
             services.AddMvc();
         }
 
