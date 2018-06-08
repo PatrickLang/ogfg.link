@@ -4,7 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 
-namespace Recipe.Pages
+namespace ogfg.recipeapp.Pages
 {
     public class AboutModel : PageModel
     {
