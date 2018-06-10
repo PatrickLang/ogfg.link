@@ -1,8 +1,3 @@
-
-
-
-
-
 Setup
 
 - `draft init` if you haven't done it already
@@ -22,7 +17,10 @@ Steps to deploy to live
 
 
 TODO
+=======
+Shorturl TODOs
 
-- [ ]  Windows conversion
+- [ ]  Windows container conversion
   - [ ] `Dockerfile` created by Draft assumes sed, bash shell. Fix it
   - [ ] Try out Draft
+- [ ] Regex validation & url generation using `abcdefghjkmnopqrstuvwxyz234679` `[a-hjkm-z234679]`
