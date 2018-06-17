@@ -8,3 +8,13 @@
     auto-connect = false
     dockerfile = ""
     chart = ""
+  [environments.live]
+    name = "shorturl"
+    namespace = "live"
+    wait = true
+    watch = false
+    watch-delay = 2
+    auto-connect = false
+    dockerfile = ""
+    chart = ""
+    set = ["service.type=LoadBalancer"]
