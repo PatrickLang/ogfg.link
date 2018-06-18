@@ -6,8 +6,18 @@
     watch = false
     watch-delay = 2
     auto-connect = false
-    dockerfile = ""
+    dockerfile = "Dockerfile"
     chart = ""
+  [environments.development.windows]
+    name = "shorturl"
+    namespace = "default"
+    wait = true
+    watch = false
+    watch-delay = 2
+    auto-connect = false
+    dockerfile = "Dockerfile.windows"
+    chart = ""
+    set = ["os"="windows"] # TODO add var to chart to set `beta.kubernetes.io/os' constraint
   [environments.live]
     name = "shorturl"
     namespace = "live"
@@ -18,3 +28,4 @@
     dockerfile = ""
     chart = ""
     set = ["service.type=LoadBalancer", "service.externalPort=80"]
+    set = ["os"="linux"] # TODO add var to chart to set `beta.kubernetes.io/os' constraint
