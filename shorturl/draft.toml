@@ -17,4 +17,4 @@
     auto-connect = false
     dockerfile = ""
     chart = ""
-    set = ["service.type=LoadBalancer"]
+    set = ["service.type=LoadBalancer", "service.externalPort=80"]
