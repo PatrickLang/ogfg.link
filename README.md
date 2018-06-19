@@ -3,20 +3,22 @@
 
 
 
+Setup
 
-Steps to deploy
+- `draft init` if you haven't done it already
+- `draft config set registry _.azurecr.io`
+- Make sure the right kubernetes context is configured
 
-`draft init` if you haven't done it already
+
+Steps to deploy to test
 
 `draft up` - will deploy to default namespace, no external IP
 `draft connect` - proxy to it
 
 
+Steps to deploy to live
 
-Not working yet - creates svc but not responding :(
 `draft up -e live` - will deploy to `live` namespace, external IP
-
-
 
 
 TODO
