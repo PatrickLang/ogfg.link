@@ -11,6 +11,7 @@ namespace shorturl.Controllers
     public class DefaultController : Controller
     {
         private Dictionary<string, string> testValues;
+        private Random random = new Random();
 
         public DefaultController()
         {
@@ -30,6 +31,12 @@ namespace shorturl.Controllers
                 // Note - if there's a file in wwwroot matching the GET request, this will not be reached.
                 return new NotFoundResult();
             }
+        }
+
+        [HttpGet("random")]
+        public IActionResult Get()
+        {
+            return new RedirectResult(testValues.ElementAt(random.Next() % testValues.Count).Value);
         }
     }
 }
