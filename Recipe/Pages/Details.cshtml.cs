@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.Xml.Linq;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using Microsoft.EntityFrameworkCore;
@@ -21,6 +22,12 @@ namespace ogfg.recipeapp.Pages
 
         public Recipe Recipe { get; set; }
 
+        public float Og { get; set; }
+        public float Fg { get; set; }
+        public string ABV { get; set; }
+        public string Style { get; set; }
+        public string Brewer { get; set; }
+        
         public async Task<IActionResult> OnGetAsync(long? id)
         {
             if (id == null)
@@ -33,6 +40,25 @@ namespace ogfg.recipeapp.Pages
             if (Recipe == null)
             {
                 return NotFound();
+            }
+
+            if (string.IsNullOrEmpty(Recipe.BeerXml) == false)
+            {
+                XDocument recipeXml = XDocument.Parse(Recipe.BeerXml);
+                Brewer = recipeXml.Element("RECIPES").Element("RECIPE").Element("BREWER").Value;
+                
+                float og, fg;
+                if (float.TryParse(recipeXml.Element("RECIPES").Element("RECIPE").Element("OG").Value, out og))
+                {
+                    Og = og;
+                }
+                if (float.TryParse(recipeXml.Element("RECIPES").Element("RECIPE").Element("FG").Value, out fg))
+                {
+                    Fg = fg;
+                }
+                
+                ABV = recipeXml.Element("RECIPES").Element("RECIPE").Element("ABV").Value;
+                Style = recipeXml.Element("RECIPES").Element("RECIPE").Element("STYLE").Value;
             }
             return Page();
         }
