@@ -43,6 +43,7 @@ namespace ogfg.recipeapp.Data
             context.Recipes.Add(new Recipe
             {
                 Name = "Burton Ale",
+                ShortUrl = "xjlj3",
                 LongUrl = "http://www.beerxml.com/recipes.xml",
                 Rating1 = 1,
                 Rating2 = 2,
@@ -56,6 +57,7 @@ namespace ogfg.recipeapp.Data
             context.Recipes.Add(new Recipe
             {
                 Name = "Dry Stout",
+                ShortUrl = "xj12h",
                 LongUrl = "http://www.beerxml.com/recipes.xml",
                 Rating1 = 1,
                 Rating2 = 2,
@@ -69,6 +71,7 @@ namespace ogfg.recipeapp.Data
             context.Recipes.Add(new Recipe
             {
                 Name = "Porter",
+                ShortUrl = "xj534",
                 LongUrl = "http://www.beerxml.com/recipes.xml",
                 Rating1 = 1,
                 Rating2 = 2,
@@ -82,6 +85,7 @@ namespace ogfg.recipeapp.Data
             context.Recipes.Add(new Recipe
             {
                 Name = "Wit",
+                ShortUrl = "xj43l",
                 LongUrl = "http://www.beerxml.com/recipes.xml",
                 Rating1 = 1,
                 Rating2 = 2,
