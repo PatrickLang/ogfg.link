@@ -1,10 +1,21 @@
 [environments]
   [environments.development]
     name = "Recipe"
-    namespace = "default"
+    namespace = "dev"
     wait = true
     watch = false
     watch-delay = 2
     auto-connect = false
     dockerfile = ""
     chart = ""
+
+[environments.live]
+    name = "Recipe"
+    namespace = "live"
+    wait = true
+    watch = false
+    watch-delay = 2
+    auto-connect = false
+    dockerfile = ""
+    chart = ""
+    set = ["service.type=LoadBalancer", "service.externalPort=80"]

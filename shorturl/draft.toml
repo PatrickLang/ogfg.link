@@ -1,7 +1,7 @@
 [environments]
   [environments.development]
     name = "shorturl"
-    namespace = "default"
+    namespace = "dev"
     wait = true
     watch = false
     watch-delay = 2
