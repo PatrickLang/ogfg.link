@@ -1,0 +1,39 @@
+﻿@page
+@model ogfg.recipeapp.Pages.LabelModel
+
+@{
+    ViewData["Title"] = "Label";
+}
+
+<table width="800px">
+    <tr>
+        <td>
+            <div id="qrcode"></div>
+            <script type="text/javascript">
+var qrcode = new QRCode(document.getElementById("qrcode"), {
+	text: "http://ogfg.link/@Model.Recipe.ShortUrl",
+	width: 128,
+	height: 128,
+	colorDark : "#000000",
+	colorLight : "#ffffff",
+	correctLevel : QRCode.CorrectLevel.H
+});
+            </script>
+        </td>
+        <td>
+            <div>
+                Brewer: @Html.DisplayFor(model => model.Brewer)<br />
+                OG: @Html.DisplayFor(model => model.Og)<br />
+                FG: @Html.DisplayFor(model => model.Fg)<br />
+                ABV: @Html.DisplayFor(model => model.ABV)<br />
+                Description: @Html.DisplayFor(model => model.Recipe.Description)<br />
+            </div>
+        </td>
+    </tr>
+    <tr>
+        <td colspan="2">
+            Scan the QR, or go to: http://ogfg.link/@Model.Recipe.ShortUrl<br />
+            To rate the beer and get more info!
+        </td>
+    </tr>
+</table>
