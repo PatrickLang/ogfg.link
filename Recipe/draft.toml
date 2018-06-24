@@ -1,6 +1,6 @@
 [environments]
   [environments.development]
-    name = "Recipe"
+    name = "recipe"
     namespace = "dev"
     wait = true
     watch = false
@@ -10,7 +10,7 @@
     chart = ""
 
 [environments.live]
-    name = "Recipe"
+    name = "recipe"
     namespace = "live"
     wait = true
     watch = false
