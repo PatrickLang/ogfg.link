@@ -1,5 +1,6 @@
 Setup
 - `draft init` if you haven't done it already
+- `az acr login --name ...`
 - `draft config set registry _.azurecr.io`
 - Make sure the right kubernetes context is configured
 
