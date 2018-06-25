@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="ISO-8859-1"?><RECIPES>
+<RECIPE>
+ <NAME>Sorta Belgee</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>All Grain</TYPE>
+ <BREWER>Nate Yocom</BREWER>
+ <ASST_BREWER></ASST_BREWER>
+ <BATCH_SIZE>37.8543360</BATCH_SIZE>
+ <BOIL_SIZE>47.6523000</BOIL_SIZE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <EFFICIENCY>72.0000000</EFFICIENCY>
+ 
+ 
+ 
+ 
+ 
+ <STYLE>
+ <NAME>Belgian Golden Strong Ale</NAME>
+ <VERSION>1</VERSION>
+ <CATEGORY>Belgian Strong Ale</CATEGORY>
+ <CATEGORY_NUMBER>18</CATEGORY_NUMBER>
+ <STYLE_LETTER>D</STYLE_LETTER>
+ <STYLE_GUIDE>BJCP 2008</STYLE_GUIDE>
+ <TYPE>Ale</TYPE>
+ <OG_MIN>1.0700000</OG_MIN>
+ <OG_MAX>1.0950000</OG_MAX>
+ <FG_MIN>1.0050000</FG_MIN>
+ <FG_MAX>1.0160000</FG_MAX>
+ <IBU_MIN>22.0000000</IBU_MIN>
+ <IBU_MAX>35.0000000</IBU_MAX>
+ <COLOR_MIN>3.0000000</COLOR_MIN>
+ <COLOR_MAX>6.0000000</COLOR_MAX>
+ <CARB_MIN>2.3000000</CARB_MIN>
+ <CARB_MAX>2.9000000</CARB_MAX>
+ <ABV_MAX>10.5000000</ABV_MAX>
+ <ABV_MIN>7.5000000</ABV_MIN>
+ <NOTES>A golden, complex, effervescent, strong Belgian-style ale. Originally developed by the Moortgat brewery after WWII as a response to the growing popularity of Pilsner beers. Strongly resembles a Tripel, but may be even paler, lighter-bodied and even crisper and drier. The drier finish and lighter body also serves to make the assertive hopping and spiciness more prominent. References to the devil are included in the names of many commercial examples of this style, referring to their potent alcoholic strength and as a tribute to the original example (Duvel). The best examples are complex and delicate. High carbonation helps to bring out the many flavors and to increase the perception of a dry finish. Traditionally bottle-conditioned (&#8220;refermented in the bottle&#8221;).</NOTES>
+ <PROFILE>Aroma: Complex with significant fruity esters, moderate spiciness and low to moderate alcohol and hop aromas. Esters are reminiscent of lighter fruits such as pears, oranges or apples. Moderate spicy, peppery phenols. A low to moderate yet distinctive perfumy, floral hop character is often present. Alcohols are soft, spicy, perfumy and low-to-moderate in intensity. No hot alcohol or solventy aromas. The malt character is light. No diacetyl.
+Appearance: Yellow to medium gold in color. Good clarity. Effervescent. Massive, long-lasting, rocky, often beady, white head resulting in characteristic &#8220;Belgian lace&#8221; on the glass as it fades.
+Flavor: Marriage of fruity, spicy and alcohol flavors supported by a soft malt character. Esters are reminiscent of pears, oranges or apples. Low to moderate phenols are peppery in character. A low to moderate spicy hop character is often present. Alcohols are soft, spicy, often a bit sweet and are low-tomoderate in intensity. Bitterness is typically medium to high from a combination of hop bitterness and yeast-produced phenolics. Substantial carbonation and bitterness leads to a dry finish with a low to moderately bitter aftertaste. No diacetyl.
+Mouthfeel: Very highly carbonated. Light to medium body, although lighter than the substantial gravity would suggest (thanks to sugar and high carbonation). Smooth but noticeable alcohol warmth. No hot alcohol or solventy character. Always effervescent. Never astringent.</PROFILE>
+ <INGREDIENTS>The light color and relatively light body for a beer of this strength are the result of using Pilsner malt and up to 20% white sugar. Noble hops or Styrian Goldings are commonly used. Belgian yeast strains are used &#8211; those that produce fruity esters, spicy phenolics and higher alcohols &#8211; often aided by slightly warmer fermentation temperatures. Fairly soft water.</INGREDIENTS>
+ <EXAMPLES>Duvel, Russian River Damnation, Hapkin, Lucifer, Brigand, Judas, Delirium Tremens, Dulle Teve, Piraat, Great Divide Hades, Avery Salvation, North Coast Pranqster, Unibroue Eau Benite, AleSmith Horny Devil</EXAMPLES>
+ <DISPLAY_OG_MIN>1.070 SG</DISPLAY_OG_MIN>
+ <DISPLAY_OG_MAX>1.095 SG</DISPLAY_OG_MAX>
+ <DISPLAY_FG_MIN>1.005 SG</DISPLAY_FG_MIN>
+ <DISPLAY_FG_MAX>1.016 SG</DISPLAY_FG_MAX>
+ <DISPLAY_COLOR_MIN>3.0 SRM</DISPLAY_COLOR_MIN>
+ <DISPLAY_COLOR_MAX>6.0 SRM</DISPLAY_COLOR_MAX>
+ <OG_RANGE>1.070-1.095 SG</OG_RANGE>
+ <FG_RANGE>1.005-1.016 SG</FG_RANGE>
+ <IBU_RANGE>22.0-35.0 IBUs</IBU_RANGE>
+ <CARB_RANGE>2.30-2.90 Vols</CARB_RANGE>
+ <COLOR_RANGE>3.0-6.0 SRM</COLOR_RANGE>
+ <ABV_RANGE>7.50-10.50 %</ABV_RANGE>
+</STYLE>
+
+ <EQUIPMENT>
+ <NAME>Pot and Cooler (10 Gal/37.8 L) - All Grain</NAME>
+ <VERSION>1</VERSION>
+ <BOIL_SIZE>47.6523000</BOIL_SIZE>
+ <BATCH_SIZE>37.8543360</BATCH_SIZE>
+ <TUN_VOLUME>37.8543360</TUN_VOLUME>
+ <TUN_WEIGHT>4.0823280</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <TOP_UP_WATER>0.0000000</TOP_UP_WATER>
+ <TRUB_CHILLER_LOSS>3.7854336</TRUB_CHILLER_LOSS>
+ <EVAP_RATE>8.9765656</EVAP_RATE>
+ <BOIL_TIME>60.0000000</BOIL_TIME>
+ <CALC_BOIL_VOLUME>TRUE</CALC_BOIL_VOLUME>
+ <LAUTER_DEADSPACE>3.0283469</LAUTER_DEADSPACE>
+ <TOP_UP_KETTLE>0.0000000</TOP_UP_KETTLE>
+ <HOP_UTILIZATION>100.0000000</HOP_UTILIZATION>
+ <COOLING_LOSS_PCT>4.0000000</COOLING_LOSS_PCT>
+ <NOTES>Popular 10 gallon setup for all grain brewing.  Uses a 10 gallon water cooler as mash tun for single infusion mashes and a 15 gallon brew pot for full size boil of the 12+ gallons of wort.</NOTES>
+ <DISPLAY_BOIL_SIZE>12.59 gal</DISPLAY_BOIL_SIZE>
+ <DISPLAY_BATCH_SIZE>10.00 gal</DISPLAY_BATCH_SIZE>
+ <DISPLAY_TUN_VOLUME>10.00 gal</DISPLAY_TUN_VOLUME>
+ <DISPLAY_TUN_WEIGHT>9 lbs</DISPLAY_TUN_WEIGHT>
+ <DISPLAY_TOP_UP_WATER>0.00 gal</DISPLAY_TOP_UP_WATER>
+ <DISPLAY_TRUB_CHILLER_LOSS>1.00 gal</DISPLAY_TRUB_CHILLER_LOSS>
+ <DISPLAY_LAUTER_DEADSPACE>0.80 gal</DISPLAY_LAUTER_DEADSPACE>
+ <DISPLAY_TOP_UP_KETTLE>0.00 gal</DISPLAY_TOP_UP_KETTLE>
+</EQUIPMENT>
+
+ <MASH>
+ <NAME>Single Infusion, Light Body, No Mash Out</NAME>
+ <VERSION>1</VERSION>
+ <GRAIN_TEMP>22.2222222</GRAIN_TEMP>
+ <TUN_TEMP>22.2222222</TUN_TEMP>
+ <SPARGE_TEMP>75.5555556</SPARGE_TEMP>
+ <PH>5.4000000</PH>
+ <TUN_WEIGHT>144.0000000</TUN_WEIGHT>
+ <TUN_SPECIFIC_HEAT>0.3000000</TUN_SPECIFIC_HEAT>
+ <EQUIP_ADJUST>TRUE</EQUIP_ADJUST>
+ <NOTES>Simple single infusion mash for use with most modern well modified grains (about 95% of the time).</NOTES>
+ <DISPLAY_GRAIN_TEMP>72.0 F</DISPLAY_GRAIN_TEMP>
+ <DISPLAY_TUN_TEMP>72.0 F</DISPLAY_TUN_TEMP>
+ <DISPLAY_SPARGE_TEMP>168.0 F</DISPLAY_SPARGE_TEMP>
+ <DISPLAY_TUN_WEIGHT>9 lbs</DISPLAY_TUN_WEIGHT>
+<MASH_STEPS>
+<MASH_STEP>
+ <NAME>Mash In</NAME>
+ <VERSION>1</VERSION>
+ <TYPE>Infusion</TYPE>
+ <INFUSE_AMOUNT>39.6287580</INFUSE_AMOUNT>
+ <STEP_TIME>75.0000000</STEP_TIME>
+ <STEP_TEMP>65.5555556</STEP_TEMP>
+ <RAMP_TIME>2.0000000</RAMP_TIME>
+ <END_TEMP>65.5555556</END_TEMP>
+ <DESCRIPTION>Add 45.08 qt of water at 162.8 F</DESCRIPTION>
+ <WATER_GRAIN_RATIO>1.250 qt/lb</WATER_GRAIN_RATIO>
+ <DECOCTION_AMT>0.00 qt</DECOCTION_AMT>
+ <INFUSE_TEMP>162.8 F</INFUSE_TEMP>
+ <DISPLAY_STEP_TEMP>150.0 F</DISPLAY_STEP_TEMP>
+ <DISPLAY_INFUSE_AMT>45.08 qt</DISPLAY_INFUSE_AMT>
+</MASH_STEP>
+</MASH_STEPS>
+
+</MASH>
+
+ <NOTES></NOTES>
+ <TASTE_NOTES></TASTE_NOTES>
+ <TASTE_RATING>30.0000000</TASTE_RATING>
+ <OG>1.0600000</OG>
+ <FG>1.0080000</FG>
+ <CARBONATION>2.3000000</CARBONATION>
+ <FERMENTATION_STAGES>2</FERMENTATION_STAGES>
+ <PRIMARY_AGE>4.0000000</PRIMARY_AGE>
+ <PRIMARY_TEMP>19.4444444</PRIMARY_TEMP>
+ <SECONDARY_AGE>10.0000000</SECONDARY_AGE>
+ <SECONDARY_TEMP>19.4444444</SECONDARY_TEMP>
+ <TERTIARY_AGE>7.0000000</TERTIARY_AGE>
+ <AGE>30.0000000</AGE>
+ <AGE_TEMP>18.3333333</AGE_TEMP>
+ <CARBONATION_USED>Keg with 12.54 PSI</CARBONATION_USED>
+ <FORCED_CARBONATION>FALSE</FORCED_CARBONATION>
+ <PRIMING_SUGAR_NAME>Forced Carbonation</PRIMING_SUGAR_NAME>
+ <PRIMING_SUGAR_EQUIV>1.0000000</PRIMING_SUGAR_EQUIV>
+ <KEG_PRIMING_FACTOR>0.5000000</KEG_PRIMING_FACTOR>
+ <CARBONATION_TEMP>7.2222222</CARBONATION_TEMP>
+ <DISPLAY_CARB_TEMP>45.0 F</DISPLAY_CARB_TEMP>
+ <DATE>24 Jun 2018</DATE>
+ <EST_OG>1.000 SG</EST_OG>
+ <EST_FG>1.000 SG</EST_FG>
+ <EST_COLOR>0.0 SRM</EST_COLOR>
+ <IBU>0.0 IBUs</IBU>
+ <IBU_METHOD>Tinseth</IBU_METHOD>
+ <EST_ABV>0.0 %</EST_ABV>
+ <ABV>6.8 %</ABV>
+ <ACTUAL_EFFICIENCY>0.0 %</ACTUAL_EFFICIENCY>
+ <CALORIES>198.7 kcal/12oz</CALORIES>
+ <DISPLAY_BATCH_SIZE>10.00 gal</DISPLAY_BATCH_SIZE>
+ <DISPLAY_BOIL_SIZE>12.59 gal</DISPLAY_BOIL_SIZE>
+ <DISPLAY_OG>1.060 SG</DISPLAY_OG>
+ <DISPLAY_FG>1.008 SG</DISPLAY_FG>
+ <DISPLAY_PRIMARY_TEMP>67.0 F</DISPLAY_PRIMARY_TEMP>
+ <DISPLAY_SECONDARY_TEMP>67.0 F</DISPLAY_SECONDARY_TEMP>
+ <DISPLAY_TERTIARY_TEMP>65.0 F</DISPLAY_TERTIARY_TEMP>
+ <DISPLAY_AGE_TEMP>65.0 F</DISPLAY_AGE_TEMP>
+</RECIPE>
+</RECIPES>
