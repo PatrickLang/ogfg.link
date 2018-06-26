@@ -50,7 +50,7 @@ namespace ogfg.recipeapp.Data
             //    Rating3 = 3,
             //    Rating4 = 4,
             //    Rating5 = 5,
-            //    BeerXml = new System.IO.StreamReader("samplexml\\burton.xml").ReadToEnd()
+            //    BeerXml = new System.IO.StreamReader("SampleXml/burton.xml").ReadToEnd()
             //}
             //);
 
@@ -64,7 +64,7 @@ namespace ogfg.recipeapp.Data
             //    Rating3 = 3,
             //    Rating4 = 4,
             //    Rating5 = 5,
-            //    BeerXml = new System.IO.StreamReader("samplexml\\dry-stout.xml").ReadToEnd()
+            //    BeerXml = new System.IO.StreamReader("SampleXml/dry-stout.xml").ReadToEnd()
             //}
             //);
 
@@ -78,7 +78,7 @@ namespace ogfg.recipeapp.Data
             //    Rating3 = 3,
             //    Rating4 = 4,
             //    Rating5 = 5,
-            //    BeerXml = new System.IO.StreamReader("samplexml\\porter.xml").ReadToEnd()
+            //    BeerXml = new System.IO.StreamReader("SampleXml/porter.xml").ReadToEnd()
             //}
             //);
 
@@ -92,7 +92,7 @@ namespace ogfg.recipeapp.Data
             //    Rating3 = 3,
             //    Rating4 = 4,
             //    Rating5 = 5,
-            //    BeerXml = new System.IO.StreamReader("samplexml\\wit.xml").ReadToEnd()
+            //    BeerXml = new System.IO.StreamReader("SampleXml/wit.xml").ReadToEnd()
             //}
             //);
 
@@ -101,7 +101,7 @@ namespace ogfg.recipeapp.Data
             {
                 Name = "Black IPA",
                 ShortUrl = "ktj3c",
-                BeerXml = new System.IO.StreamReader("samplexml\\hbc2018-cda.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-cda.xml").ReadToEnd()
             });
 
 
@@ -109,21 +109,21 @@ namespace ogfg.recipeapp.Data
             {
                 Name = "Belgian Golden",
                 ShortUrl = "pq96x",
-                BeerXml = new System.IO.StreamReader("samplexml\\hbc2018-golden.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-golden.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
                 Name = "Grodziskie",
                 ShortUrl = "2hnmp",
-                BeerXml = new System.IO.StreamReader("samplexml\\hbc2018-grodziskie.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-grodziskie.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
                 Name = "New England IPA",
                 ShortUrl = "m3qw2",
-                BeerXml = new System.IO.StreamReader("samplexml\\hbc2018-neipa.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-neipa.xml").ReadToEnd()
             });
 
             context.SaveChanges();
