@@ -11,4 +11,15 @@
   <ItemGroup>
     <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.1.0-preview1-final" />
   </ItemGroup>
+
+  <Target Name="PrepublishScript" BeforeTargets="PrepareForPublish">
+    <ItemGroup>
+      <SampleRecipleXml Include="SampleXml\*.xml"/>
+    </ItemGroup>
+    <Copy SourceFiles="@(SampleRecipeXml)"
+          DestinationFolder="$(PublishDir)\SampleXml"
+          SkipUnchangedFiles="false"  />
+  </Target>
+
+  
 </Project>
