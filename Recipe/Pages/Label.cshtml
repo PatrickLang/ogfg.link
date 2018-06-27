@@ -32,8 +32,8 @@
     <table width="800px">
         <tr>
             <td>
-                <div id="qrcode"></div>
-                <script type="text/javascript">
+                <div id="qrcode">
+                    <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
 	text: "http://ogfg.link/@Model.Recipe.ShortUrl",
 	width: 128,
@@ -42,7 +42,8 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
 	colorLight : "#ffffff",
 	correctLevel : QRCode.CorrectLevel.H
 });
-                </script>
+                    </script>
+                </div>
             </td>
             <td>
                 <div>
