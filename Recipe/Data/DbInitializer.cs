@@ -107,6 +107,13 @@ namespace ogfg.recipeapp.Data
 
             context.Recipes.Add(new Recipe
             {
+                Name = "Munich Dunkel",
+                ShortUrl = "w6tyx",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-dunkel.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
                 Name = "Belgian Golden",
                 ShortUrl = "pq96x",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-golden.xml").ReadToEnd()
@@ -121,9 +128,44 @@ namespace ogfg.recipeapp.Data
 
             context.Recipes.Add(new Recipe
             {
+                Name = "English Mild",
+                ShortUrl = "vb6md",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-mild.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
                 Name = "New England IPA",
                 ShortUrl = "m3qw2",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-neipa.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
+                Name = "Pilsner",
+                ShortUrl = "p7xvt",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-pils.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
+                Name = "Schwarzbier",
+                ShortUrl = "ae2br",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-schwarzbier.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
+                Name = "Spruce Brown Ale",
+                ShortUrl = "br2lx",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-spruce.xml").ReadToEnd()
+            });
+
+            context.Recipes.Add(new Recipe
+            {
+                Name = "Wit",
+                ShortUrl = "u4bxm",
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-wit.xml").ReadToEnd()
             });
 
             context.SaveChanges();
