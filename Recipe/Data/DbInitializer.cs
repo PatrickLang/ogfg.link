@@ -124,7 +124,7 @@ namespace ogfg.recipeapp.Data
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Firewalker",
+                Name = "Firewalk",
                 Style = "Grodziskie",
                 ShortUrl = "2hnmp",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-grodziskie.xml").ReadToEnd()

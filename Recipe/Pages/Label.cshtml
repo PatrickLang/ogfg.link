@@ -29,9 +29,9 @@
         ViewData["Title"] = "Label";
     }
 
-    <table width="800px">
+    <table width="600">
         <tr>
-            <td>
+            <td width="150">
                 <div id="qrcode">
                     <script type="text/javascript">
 var qrcode = new QRCode(document.getElementById("qrcode"), {
@@ -47,19 +47,21 @@ var qrcode = new QRCode(document.getElementById("qrcode"), {
             </td>
             <td>
                 <div>
-                    <font size="16">@Html.DisplayFor(model => model.Recipe.Name)</font><br />
-                    Brewer: @Html.DisplayFor(model => model.Brewer)<br />
-                    OG: @Html.DisplayFor(model => model.Og)<br />
-                    FG: @Html.DisplayFor(model => model.Fg)<br />
-                    ABV: @Html.DisplayFor(model => model.ABV)<br />
-                    Description: @Html.DisplayFor(model => model.Recipe.Description)<br />
+                    <font size="14">@Html.DisplayFor(model => model.Recipe.Name)</font><br />
+                    <b>Style:</b> @Html.DisplayFor(model => model.Recipe.Style)<br />
+                    <b>Brewer:</b> @Html.DisplayFor(model => model.Brewer)<br />
+                    <b>OG:</b> @Html.DisplayFor(model => model.Og)<br />
+                    <b>FG:</b> @Html.DisplayFor(model => model.Fg)<br />
+                    <b>ABV:</b> @Html.DisplayFor(model => model.ABV)<br />
+                    <b>Description:</b> @Html.DisplayFor(model => model.Recipe.Description)<br />
                 </div>
             </td>
         </tr>
         <tr height="20"></tr>
         <tr>
             <td colspan="2">
-                Scan the QR, or go to: http://ogfg.link/@Model.Recipe.ShortUrl<br />
+                Scan the QR, or go to: <br />
+                http://ogfg.link/@Model.Recipe.ShortUrl <br />
                 To rate the beer and get more info!
             </td>
         </tr>
