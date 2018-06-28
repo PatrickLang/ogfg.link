@@ -18,6 +18,7 @@ namespace ogfg.recipeapp.Models
 
         // Provided when recipe added
         public string Name { get; set; }
+        public string Style { get; set; }
         public string Description { get; set; }
         public string LongUrl { get; set; }
 

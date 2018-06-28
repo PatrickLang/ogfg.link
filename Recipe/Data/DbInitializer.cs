@@ -99,7 +99,8 @@ namespace ogfg.recipeapp.Data
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Black IPA",
+                Name = "BOB's",
+                Style = "Black IPA",
                 ShortUrl = "ktj3c",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-cda.xml").ReadToEnd()
             });
@@ -107,65 +108,107 @@ namespace ogfg.recipeapp.Data
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Munich Dunkel",
+                Name = "Double R",
+                Style = "Munich Dunkel",
                 ShortUrl = "w6tyx",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-dunkel.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Belgian Golden",
+                Name = "Diane's",
+                Style = "Belgian Golden",
                 ShortUrl = "pq96x",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-golden.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Grodziskie",
+                Name = "Firewalker",
+                Style = "Grodziskie",
                 ShortUrl = "2hnmp",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-grodziskie.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "English Mild",
+                Name = "Mill",
+                Style = "English Mild",
                 ShortUrl = "vb6md",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-mild.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "New England IPA",
+                Name = "Peculiar Owl",
+                Style = "New England IPA",
                 ShortUrl = "m3qw2",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-neipa.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Pilsner",
+                Name = "Penny Loafer",
+                Style = "Pilsner",
                 ShortUrl = "p7xvt",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-pils.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Schwarzbier",
+                Name = "Black Lodge",
+                Style = "Schwarzbier",
                 ShortUrl = "ae2br",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-schwarzbier.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Spruce Brown Ale",
+                Name = "Log Lady",
+                Style = "Spruce Brown Ale",
                 ShortUrl = "br2lx",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-spruce.xml").ReadToEnd()
             });
 
             context.Recipes.Add(new Recipe
             {
-                Name = "Wit",
+                Name = "Overnight White",
+                Style = "Wit",
                 ShortUrl = "u4bxm",
                 BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-wit.xml").ReadToEnd()
+            });
+
+
+            context.Recipes.Add(new Recipe{
+                Name = "Great Northern",
+                Style = "Apple Cider",
+                ShortUrl = "4fgpx"
+                // Zot
+            });
+
+            context.Recipes.Add(new Recipe{
+                Name = "Bookhouse Boys",
+                Style = "Ginger Saison",
+                ShortUrl = "xt3wb"
+            });
+
+            context.Recipes.Add(new Recipe{
+                Name = "One Eyed Jack's",
+                Style = "Lichtenhainer",
+                ShortUrl = "k7bwq"
+            });
+
+
+            context.Recipes.Add(new Recipe{
+                Name = "Damn Good",
+                Style = "Wee Heavy",
+                ShortUrl = "h29kz"
+            });
+
+            context.Recipes.Add(new Recipe{
+                Name = "Big Ed's",
+                Style = "Apple Cider",
+                ShortUrl = "p5mwq"
             });
 
             context.SaveChanges();
