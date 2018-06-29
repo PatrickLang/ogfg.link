@@ -27,7 +27,9 @@ namespace ogfg.recipeapp.Pages
         public string ABV { get; set; }
         public string Style { get; set; }
         public string Brewer { get; set; }
-        
+        public double Rating { get; set; }
+        public long RatingCount { get; set; }
+
         public async Task<IActionResult> OnGetAsync(long? id)
         {
             if (id == null)
@@ -41,6 +43,9 @@ namespace ogfg.recipeapp.Pages
             {
                 return NotFound();
             }
+
+            RatingCount = (Recipe.Rating1 + Recipe.Rating2 + Recipe.Rating3 + Recipe.Rating4 + Recipe.Rating5);
+            Rating = (Recipe.Rating1 * 1.0 + Recipe.Rating2 * 2.0 + Recipe.Rating3 * 3.0 + Recipe.Rating4 * 4.0 + Recipe.Rating5 * 5.0) / RatingCount;
 
             if (string.IsNullOrEmpty(Recipe.BeerXml) == false)
             {

@@ -18,3 +18,5 @@ resources:
     memory: 256Mi
 ingress:
   enabled: false
+sqlUser: user # override this with draft up 
+# sqlPassword: pass # if not overridden, will be random

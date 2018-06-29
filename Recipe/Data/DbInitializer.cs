@@ -102,7 +102,12 @@ namespace ogfg.recipeapp.Data
                 Name = "BOB's",
                 Style = "Black IPA",
                 ShortUrl = "ktj3c",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-cda.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-cda.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
 
@@ -111,7 +116,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Double R",
                 Style = "Munich Dunkel",
                 ShortUrl = "w6tyx",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-dunkel.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-dunkel.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -119,7 +129,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Diane's",
                 Style = "Belgian Golden",
                 ShortUrl = "pq96x",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-golden.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-golden.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -127,7 +142,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Firewalk",
                 Style = "Grodziskie",
                 ShortUrl = "2hnmp",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-grodziskie.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-grodziskie.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -135,7 +155,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Mill",
                 Style = "English Mild",
                 ShortUrl = "vb6md",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-mild.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-mild.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -143,7 +168,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Peculiar Owl",
                 Style = "New England IPA",
                 ShortUrl = "m3qw2",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-neipa.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-neipa.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -151,7 +181,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Penny Loafer",
                 Style = "Pilsner",
                 ShortUrl = "p7xvt",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-pils.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-pils.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -159,7 +194,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Black Lodge",
                 Style = "Schwarzbier",
                 ShortUrl = "ae2br",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-schwarzbier.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-schwarzbier.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -167,7 +207,12 @@ namespace ogfg.recipeapp.Data
                 Name = "Log Lady",
                 Style = "Spruce Brown Ale",
                 ShortUrl = "br2lx",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-spruce.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-spruce.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe
@@ -175,40 +220,71 @@ namespace ogfg.recipeapp.Data
                 Name = "Overnight White",
                 Style = "Wit",
                 ShortUrl = "u4bxm",
-                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-wit.xml").ReadToEnd()
+                BeerXml = new System.IO.StreamReader("SampleXml/hbc2018-wit.xml").ReadToEnd(),
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
 
             context.Recipes.Add(new Recipe{
                 Name = "Great Northern",
                 Style = "Apple Cider",
-                ShortUrl = "4fgpx"
+                ShortUrl = "4fgpx",
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
                 // Zot
             });
 
             context.Recipes.Add(new Recipe{
                 Name = "Bookhouse Boys",
                 Style = "Ginger Saison",
-                ShortUrl = "xt3wb"
+                ShortUrl = "xt3wb",
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe{
                 Name = "One Eyed Jack's",
                 Style = "Lichtenhainer",
-                ShortUrl = "k7bwq"
+                ShortUrl = "k7bwq",
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
 
             context.Recipes.Add(new Recipe{
                 Name = "Damn Good",
                 Style = "Wee Heavy",
-                ShortUrl = "h29kz"
+                ShortUrl = "h29kz",
+                Description = "Club brew - Scottish style Wee Heavy aged in a rye whiskey barrel",
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.Recipes.Add(new Recipe{
                 Name = "Big Ed's",
                 Style = "Apple Cider",
-                ShortUrl = "p5mwq"
+                ShortUrl = "p5mwq",
+                Rating1 = 0,
+                Rating2 = 0,
+                Rating3 = 0,
+                Rating4 = 0,
+                Rating5 = 1
             });
 
             context.SaveChanges();
