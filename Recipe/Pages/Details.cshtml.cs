@@ -30,14 +30,14 @@ namespace ogfg.recipeapp.Pages
         public double Rating { get; set; }
         public long RatingCount { get; set; }
 
-        public async Task<IActionResult> OnGetAsync(long? id)
+        public async Task<IActionResult> OnGetAsync(string shortUrl)
         {
-            if (id == null)
+            if (shortUrl == null)
             {
                 return NotFound();
             }
 
-            Recipe = await _context.Recipes.SingleOrDefaultAsync(m => m.Id == id);
+            Recipe = await _context.Recipes.SingleOrDefaultAsync(m => m.ShortUrl == shortUrl);
 
             if (Recipe == null)
             {
