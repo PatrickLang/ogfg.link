@@ -18,3 +18,4 @@ resources:
     memory: 256Mi
 ingress:
   enabled: false
+os: linux
